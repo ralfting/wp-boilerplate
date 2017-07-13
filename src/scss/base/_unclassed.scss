@@ -1,0 +1,31 @@
+html, body {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+}
+
+html {
+  font-size: 16px
+}
+
+a {
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+textarea, input {
+  border: none;
+}
+
+*:focus {
+  outline: none;
+}
